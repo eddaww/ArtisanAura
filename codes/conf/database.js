@@ -21,7 +21,7 @@ const pool = mysql.createPool({
   host:'localhost',
   user:'root',
   database: 'artisanaura',
-  password: '9210',
+  password: '',
   waitForConnections: true,
   connectionLimit: 10,
   maxIdle: 100,
