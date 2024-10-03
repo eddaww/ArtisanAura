@@ -6,7 +6,7 @@
     {{this.id}}
     <div class="product-images">
         <h3 class="title">{{currentProduct.title}}</h3>
-        <img class="image" src="https://storage.googleapis.com/artisan-aura-photo-bucket/{{currentProduct.image}}"
+        <img class="image" src="/public/{{currentProduct.image}}"
             alt="product images coming soon" />
     </div>
 
@@ -82,7 +82,12 @@
 
 
 
-    <!--Product Reviews Form-->
+
+    
+
+</main>
+
+<!--Product Reviews Form-->
     <div class="product-reviews">
         {{#if isLoggedIn}}
         <div class="review-form">
@@ -168,8 +173,6 @@
         {{/if}}
     </div>
 
-
-</main>
 <div class="similar">
     <h2 class="title">Similar Products:</h2>
     <div class="carousel">
